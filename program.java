@@ -34,16 +34,16 @@ public class moviedb {
 			
 			System.out.println("\nInserting data");
 											//inserting data to Movies tables
-			insertMovie(conn, "Inception","Leonardo DiCaprio","Marion Cotillard","Christopher Nolan",2016);
-			insertMovie(conn, "Joker","Joaquin Phoenix","Zazie Beetz","Todd Phillips",2019);
-			insertMovie(conn, "Avatar","Sam Worthington","Zoe Salda�a","James Cameron",2009);
-			insertMovie(conn, "The Conjuring","Patrick Wilson","Vera Farmiga","James Wan",2013);
-			insertMovie(conn, "Thor","Chris Hemsworth","Natalie Portman","Kenneth Branagh",2011);
-			insertMovie(conn, "Iron Man","Robert Downey Jr.","Gwyneth Paltrow","Jon Favreau",2008);
-			insertMovie(conn, "Doctor Strange","Benedict Cumberbatch","Rachel McAdams","Scott Derrickson",2016);
-			insertMovie(conn, "Deadpool","Ryan Reynolds","Morena Baccarin","Tim Miller",2016);
-			insertMovie(conn, "Ant-Man","Paul Rudd","Evangeline Lilly","Peyton Reed",2015);
-			insertMovie(conn, "Free Guy","Ryan Reynolds","Jodie Comer","Shawn Levy",2021);
+			insertMovie(conn, "RRR", "Ram charan teja", "alia bhatt", "S.S Rajamouli", 2022);
+			insertMovie(conn, "moonfall", "Patrick Wilson", "Halle Berry", "Roland Emmerich", 2022),;
+			insertMovie(conn, "Bhuj: The Pride of India", "Ajay Devgn", "Pooja Bhavoria", "Abhishek Dudhaiya", 2021),
+			insertMovie(conn, "Golmaal 3", "Ajay Devgn", "Kareena Kapoor", "Rohit Shetty", 2010),
+			insertMovie(conn, "Dharmaveer", "Prasad Oak", "Shruti Marathe", "Pravin Tarde", 20212);
+			insertMovie(conn, "Heaven" , "Eric Roberts" , "Marta Gil" , "Angus Benfield" , 2020);
+			insertMovie(conn, "ABCD" , "Prabhu Deva" , "Lauren Gottlieb" , "Remo D'Souza" , 2013);
+			insertMovie(conn, "The Terminator", "Michael Biehn" , "Linda Hamilton", "James Cameron" , 1984);
+			insertMovie(conn, "dangal" , "Aamir Khan" , "Sakshi Tanwar" , "Nitesh Tiwari" , 2016;
+			insertMovie(conn, "Dhoom 3" , "abhishek" , "katrina" , "Vijay Krishna Acharya" , 2013);
 			
 			System.out.println("\nDisplaying Movies table data");
 			displayDatabase(conn, "Movies");					//displaying the Movies table data
